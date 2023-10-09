@@ -1,0 +1,93 @@
+ [
+      {
+        "id": 101,
+        "name": "Chocolate Fudge Cake",
+        "description": "A rich and decadent chocolate cake, perfect for birthdays.",
+        "price": 29.99,
+        "image": "https://i.ibb.co/cQVWFJ3/birthday-1.jpg",
+        "category": "Birthday Cakes"
+      },
+      {
+        "id": 102,
+        "name": "Vanilla Confetti Cake",
+        "description": "A classic vanilla cake with colorful confetti sprinkles.",
+        "price": 24.99,
+        "image": "https://i.ibb.co/Fw97RWp/birthday-2.jpg",
+        "category": "Birthday Cakes"
+      },
+      {
+        "id": 201,
+        "name": "Red Velvet Romance Cake",
+        "description": "A romantic red velvet cake with cream cheese frosting.",
+        "price": 34.99,
+        "image": "https://i.ibb.co/DtD1J1q/anniversary-1.jpg",
+        "category": "Anniversary Cakes"
+      },
+      {
+        "id": 202,
+        "name": "Strawberry Champagne Cake",
+        "description": "A champagne-infused cake with fresh strawberries.",
+        "price": 39.99,
+        "image":  "https://i.ibb.co/yhW30GT/anniversary-2.jpg",
+        "category": "Anniversary Cakes"
+      },
+      {
+        "id": 301,
+        "name": "Classic White Wedding Cake",
+        "description": "A traditional white wedding cake with elegant decorations.",
+        "price": 49.99,
+        "image": "https://i.ibb.co/P1vzsPF/wedding-1.jpg",
+        "category": "Wedding Cakes"
+      },
+      {
+        "id": 302,
+        "name": "Lavender Love Cake",
+        "description": "A lavender-flavored cake with floral accents, perfect for weddings.",
+        "price": 54.99,
+        "image": "https://i.ibb.co/pJhgbyj/wedding-2.jpg",
+        "category": "Wedding Cakes"
+      },
+      {
+        "id": 401,
+        "name": "Cute Elephant Cake",
+        "description": "An adorable elephant-themed cake for baby showers.",
+        "price": 39.99,
+        "image":  "https://i.ibb.co/j3n5Gd2/baby-1.png",
+        "category": "Baby Shower Cakes"
+      },
+      {
+        "id": 402,
+        "name": "Gender Reveal Cake",
+        "description": "A cake with a surprise gender reveal inside for baby showers.",
+        "price": 44.99,
+        "image":"https://i.ibb.co/XLjjmJ8/baby-2.jpg",
+        "category": "Baby Shower Cakes"
+      },
+      {
+        "id": 501,
+        "name": "Christmas Yule Log Cake",
+        "description": "A traditional Yule log cake for Christmas festivities.",
+        "price": 34.99,
+        "image": "https://i.ibb.co/BgD3Pn6/holiday-1.jpg",
+        "category": "Holiday Cakes"
+      },
+      {
+        "id": 502,
+        "name": "Easter Bunny Cake",
+        "description": "A cute bunny-shaped cake for Easter celebrations.",
+        "price": 29.99,
+        "image":"https://i.ibb.co/mBKN06V/holiday-2.jpg ",
+        "category": "Holiday Cakes"
+      },
+      {
+        "id": 601,
+        "name": "Custom Celebration Cake",
+        "description": "Create your own custom cake for any occasion.",
+        "price": 59.99,
+        "image":"https://i.ibb.co/m0D9TQx/castom.jpg",
+        "category": "Custom Cakes"
+      }
+    
+    ]
+  
+  
