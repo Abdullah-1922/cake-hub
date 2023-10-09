@@ -21,7 +21,7 @@ const Cart = ({ cart }) => {
           <p>{description}</p>
           <p className="text-lg flex gap-2  font-semibold"> Price :
             {
-            cart?.cakes[0]? <p>{cart?.cakes[0]?.price} -  {cart?.cakes[1]?.price}</p>
+            cart?.cakes[0]? <p>{cart?.cakes[0]?.price}$ -  {cart?.cakes[1]?.price}$</p>
             : <p>Contact us</p>    
             }      
              </p>
