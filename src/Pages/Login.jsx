@@ -2,14 +2,15 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { SnackbarProvider, enqueueSnackbar } from 'notistack';
 import { BiShow } from 'react-icons/bi';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useContext, useState } from 'react';
 import { AuthContext } from '../ContextApi/Authprovider';
 
 const Login = () => {
   const [showPass, setShowPass] = useState(false);
   const { signIn ,googleLogin} = useContext(AuthContext);
-
+ const navigate =useNavigate()
+  const location =useLocation()
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -56,6 +57,7 @@ const Login = () => {
           progress: undefined,
           theme: 'light',
         });
+        navigate(`${location.state}`)
       })
       .catch((err) => {
         console.log(err);
@@ -74,7 +76,11 @@ const Login = () => {
   };
   const handleGoogleLogin=()=>{
     googleLogin()
+    
+    navigate(`${location.state}`)
   }
+ 
+  console.log(location.state);
   return (
     <div className='bg-red-100  py-20'>
       <div className=' flex  pt-16 justify-center min-w-[320px] max-w-[600px] mx-auto p-10 rounded-3xl bg-gradient-to-br from-fuchsia-300 via-violet-300 to-purple-200'>
