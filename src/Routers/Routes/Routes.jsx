@@ -7,6 +7,7 @@ import AllCarts from '../../Pages/AllCarts';
 import Login from '../../Pages/Login';
 import Register from '../../Pages/Register';
 import PrivateRoute from '../PrivateRoute';
+import ErrorPage from '../../Pages/ErrorPage';
 
 
 
@@ -17,6 +18,7 @@ const router=createBrowserRouter([
     {
         path:'/',
         element:<Root></Root>,
+        errorElement:<ErrorPage></ErrorPage>,
         children:[
             {
                 path:'/',
