@@ -1,3 +1,7 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
@@ -8,10 +12,10 @@ const Cart = ({ cart }) => {
  useEffect(()=>{
   window.scrollTo(0,0)
  },[])
- 
+
   return (
     
-      <div className='card h-[500px] glass'>
+      <div  data-aos="fade-in" className='card h-[500px] glass'>
         <figure>
           <img
           className="w-full h-[300px]"

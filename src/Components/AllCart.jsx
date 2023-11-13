@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 import Swal from "sweetalert2";
 
 const AllCart = ({allCard}) => {
@@ -15,7 +18,7 @@ const AllCart = ({allCard}) => {
     }
     return (
         
-        <div className='card h-[500px]  glass'>
+        <div   data-aos="flip-left" className='card h-[500px]  glass'>
         <figure>
           <img
           className="w-full h-[300px]"
