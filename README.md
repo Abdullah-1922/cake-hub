@@ -1,3 +1,13 @@
+* Project bullet point.
+ * User can all the cakes at a time.
+ * User will get a alert when the order Confirmed.
+ * User can log in by Google or Gmail and password.
+ * User can not order withOut login.
+ * User can log out easily.
+
+
+*Que Ans
+
 * Answer: B
 Explanation: There's a typo in the variable name (greetign instead of greeting), causing a ReferenceError.
 
