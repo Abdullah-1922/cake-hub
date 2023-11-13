@@ -76,7 +76,7 @@ const Login = () => {
     googleLogin()
   }
   return (
-    <div className='bg-red-100  pt-20  h-calc-vh'>
+    <div className='bg-red-100  py-20'>
       <div className=' flex  pt-16 justify-center min-w-[320px] max-w-[600px] mx-auto p-10 rounded-3xl bg-gradient-to-br from-fuchsia-300 via-violet-300 to-purple-200'>
         <div className='relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none'>
           <h4 className='block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased'>

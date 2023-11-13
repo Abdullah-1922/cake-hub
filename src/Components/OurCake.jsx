@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
 const OurCake = () => {
   return (
     <div>
+        <h2 className='text-4xl font-bold text-center pt-16 -mb-6'>WHY CAKE FROM US</h2>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

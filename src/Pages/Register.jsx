@@ -87,7 +87,7 @@ console.log(createUser);
         googleLogin()
       }
     return (
-        <div className='bg-purple-100 pt-20 min-h-[600px] h-calc-vh '>
+        <div className='bg-purple-100 py-20 min-h-[600px]  '>
         <div className=' flex  justify-center w-fit mx-auto p-10 rounded-3xl bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-300 ...'>
       <div className='relative flex flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 shadow-none'>
         <h4 className='block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased'>
