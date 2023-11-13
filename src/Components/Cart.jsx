@@ -1,10 +1,13 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 const Cart = ({ cart }) => {
   const {id, description, name, image } = cart;
-  
-
+ 
+ useEffect(()=>{
+  window.scrollTo(0,0)
+ },[])
  
   return (
     

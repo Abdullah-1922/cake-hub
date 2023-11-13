@@ -1,10 +1,21 @@
 /* eslint-disable react/prop-types */
 
+import Swal from "sweetalert2";
+
 const AllCart = ({allCard}) => {
-    console.log(allCard);
+    
     const { description, name, image,price } = allCard;
+    
+    const handleOrder=()=>{
+      Swal.fire({
+        title: "Good job!",
+        text: "Your order placed successfully",
+        icon: "success"
+      });
+    }
     return (
-        <div className='card h-[500px] glass'>
+        
+        <div className='card h-[500px]  glass'>
         <figure>
           <img
           className="w-full h-[300px]"
@@ -19,7 +30,7 @@ const AllCart = ({allCard}) => {
             {price}$
              </p>
           <div className='card-actions justify-end'>
-          <button className='btn hover:text-white hover:bg-slate-700 bg-purple-400'>see Cakes</button>
+          <button onClick={handleOrder} className='btn hover:text-white hover:bg-slate-700 bg-purple-400'>Order Cake</button>
           </div>
         </div>
       </div>
